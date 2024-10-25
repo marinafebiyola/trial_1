@@ -11,7 +11,7 @@ from datetime import datetime
 st.set_page_config(page_title="Monitoring-kki-2024", page_icon="🌍", layout="wide")
 
 # Backend URL
-FLASK_URL = 'https://5105-103-53-76-210.ngrok-free.app/data-receive'
+FLASK_URL = ' https://6f6f-140-213-219-152.ngrok-free.app/data-receive'
 def data_backend():
     try:
         response = requests.get(FLASK_URL)
