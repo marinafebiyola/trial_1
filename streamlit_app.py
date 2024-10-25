@@ -22,7 +22,7 @@ def data_backend():
         return None
     
 #sidebar
-st.sidebar.markdown('<h4 class="sidebar-text">NAVIGASI LINTASAN</h4>', unsafe_allow_html=True)
+st.sidebar.markdown('<h4 class="sidebar-text">NAVIGAS LINTASAN</h4>', unsafe_allow_html=True)
 path = st.sidebar.radio("", ["Lintasan A ⚓", "Lintasan B ⚓"])
 start_monitoring_button = st.sidebar.button("START BUTTON", key="start_monitoring_button")
 
